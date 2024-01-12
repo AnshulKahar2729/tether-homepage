@@ -14,3 +14,9 @@ body{
   background-color: #F9FAFA;
 }
 
+@media (max-width: 376px) {
+ .footerSecondCol{
+  grid-template-columns: 1fr 1fr;
+ }
+  
+}

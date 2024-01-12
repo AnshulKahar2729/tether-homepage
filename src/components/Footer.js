@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#222322] text-white">
-      <div className="    grid grid-cols-2 mb-10">
+    <div className="bg-[#222322] text-white p-5 footer">
+      <div className=" footerFirstCol grid md:grid-cols-2">
         {/* first grid column */}
-        <div>
-          <div className=" mt-56 ml-56 mr-48">
+        <div className=" ">
+          <div className=" xl:mt-56 xl:ml-56 xl:mr-48 md:mt-56 ">
             <h2
               className=" font-sans"
               style={{
@@ -29,123 +29,119 @@ const Footer = () => {
         </div>
 
         {/* second grid column */}
-        <div className=" grid grid-cols-3 mt-10 ">
+        <div className=" footerSecondCol grid grid-cols-3 gap-5  mt-10 ">
           {/* first grid column */}
-          <div className=" flex flex-col gap-44">
-            {/* first grid row */}
+          <div className=" flex flex-col md:gap-44">
+            
             <div className=" flex flex-col gap-1">
-              <h6 className=" text-[#C0A060] text-xl font-sans">Tether</h6>
+              <h6 className=" text-[#C0A060] text-sm xl:text-xl font-sans">Tether</h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Why Tether?</a>
+                <a className=" font-sans text-sm xl:text-xl">Why Tether?</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">How It Works</a>
+                <a className=" font-sans text-sm xl:text-xl">How It Works</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Knowledge Base</a>
+                <a className=" font-sans text-sm xl:text-xl">Knowledge Base</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Transparency</a>
+                <a className=" font-sans text-sm xl:text-xl">Transparency</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Fees</a>
+                <a className=" font-sans text-sm xl:text-xl">Fees</a>
               </h6>
             </div>
 
-            {/* second grid row */}
+            
             <div className=" flex flex-col gap-1">
-              <h6 className=" text-[#C0A060] text-xl font-sans">Products</h6>
+              <h6 className=" text-[#C0A060] text-sm xl:text-xl font-sans">Products</h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Tether token CNHt</a>
+                <a className=" font-sans text-sm xl:text-xl">Tether token CNHt</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Tether token EURt</a>
+                <a className=" font-sans text-sm xl:text-xl">Tether token EURt</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Tether token MXNt</a>
+                <a className=" font-sans text-sm xl:text-xl">Tether token MXNt</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Tether token USDt</a>
+                <a className=" font-sans text-sm xl:text-xl">Tether token USDt</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Tether Gold token - XAUt</a>
+                <a className=" font-sans text-sm xl:text-xl">Tether Gold token - XAUt</a>
               </h6>
             </div>
           </div>
 
           {/* second grid column */}
-          <div className=" flex flex-col gap-44">
+          <div className=" flex flex-col md:gap-44">
             {/* first grid row */}
             <div className=" flex flex-col gap-1">
-              <h6 className=" text-[#C0A060] text-xl font-sans">Company</h6>
+              <h6 className=" text-[#C0A060] text-sm xl:text-xl font-sans">Company</h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">About Us</a>
+                <a className=" font-sans text-sm xl:text-xl">About Us</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Careers</a>
+                <a className=" font-sans text-sm xl:text-xl">Careers</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Contact Us</a>
+                <a className=" font-sans text-sm xl:text-xl">Contact Us</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Legal Terms</a>
+                <a className=" font-sans text-sm xl:text-xl">Legal Terms</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">Cookie Settings</a>
+                <a className=" font-sans text-sm xl:text-xl">Cookie Settings</a>
               </h6>
             </div>
 
             {/* second grid row */}
             <div className=" flex flex-col gap-1">
-              <h6 className=" text-[#C0A060] text-xl font-sans">Solutions</h6>
+              <h6 className=" text-[#C0A060] text-sm xl:text-xl font-sans">Solutions</h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">For Individuals</a>
+                <a className=" font-sans text-sm xl:text-xl">For Individuals</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">For Merchants</a>
+                <a className=" font-sans text-sm xl:text-xl">For Merchants</a>
               </h6>
               <h6 className=" cursor-pointer hover:underline">
-                <a className=" font-sans text-xl">For Exchanges</a>
+                <a className=" font-sans text-sm xl:text-xl">For Exchanges</a>
               </h6>
             </div>
           </div>
 
           {/* third grid column */}
           <div className=" flex flex-col gap-1">
-            <h6 className=" text-[#C0A060] text-xl font-sans">Resources</h6>
+            <h6 className=" text-[#C0A060] text-sm xl:text-xl font-sans">Resources</h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">News</a>
+              <a className=" font-sans text-sm xl:text-xl">News</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">FAQs</a>
+              <a className=" font-sans text-sm xl:text-xl">FAQs</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Integration Guidelines</a>
+              <a className=" font-sans text-sm xl:text-xl">Integration Guidelines</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Bug Bounty</a>
+              <a className=" font-sans text-sm xl:text-xl">Bug Bounty</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Media Assets</a>
+              <a className=" font-sans text-sm xl:text-xl">Media Assets</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Tether Facts</a>
+              <a className=" font-sans text-sm xl:text-xl">Tether Facts</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Whitepaper</a>
+              <a className=" font-sans text-sm xl:text-xl">Whitepaper</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Tether Channels</a>
+              <a className=" font-sans text-sm xl:text-xl">Tether Channels</a>
             </h6>
             <h6 className=" cursor-pointer hover:underline">
-              <a className=" font-sans text-xl">Security Features</a>
+              <a className=" font-sans text-sm xl:text-xl">Security Features</a>
             </h6>
           </div>
         </div>
-      </div>
-
-      <div className="">
-              A
       </div>
     </div>
   );

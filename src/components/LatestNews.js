@@ -4,13 +4,13 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const LatestNews = () => {
   return (
-    <div className=" bg-[#F9FAFA] flex items-center justify-center flex-col mb-12">
+    <div className=" bg-[#F9FAFA] flex items-center justify-center flex-col mb-12 xl:px-10 px-4 md:px-28" >
       <h1 className=" font-sans font-bold text-3xl mt-28 mb-10">Latest News</h1>
 
-      <div className=" flex flex-row gap-14">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-14">
         <div
           className=" hover:bg-[#0092921e] transition-all cursor-pointer latestNewsCard bg-[#F5FBFA] rounded-md overflow-hidden"
-          style={{ width: "541px", height: "407px" }}
+          // style={{ width: "541px", height: "407px" }}
         >
           <img src={newsWallpaper} />
           <h1 className=" text-[#009292] text-lg mx-4 font-bold mt-2 font-sans">
@@ -29,7 +29,7 @@ const LatestNews = () => {
         </div>
         <div
           className=" hover:bg-[#0092921e] transition-all cursor-pointer latestNewsCard bg-[#F5FBFA] rounded-md overflow-hidden"
-          style={{ width: "541px", height: "407px" }}
+          // style={{ width: "541px", height: "407px" }}
         >
           <img src={newsWallpaper} />
           <h1 className=" text-[#009292] text-lg mx-4 font-bold mt-2 font-sans">
