@@ -1,0 +1,10 @@
+@media (max-width: 320px) {
+    .headerTitle {
+        font-size: 5rem;
+        margin-left: 10px;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
